@@ -1,0 +1,45 @@
+// index.module.scss
+
+@use "../utils" as *;
+@use "../global" as *;
+
+.root {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Adjust as needed */
+}
+
+.hero_title {
+  color: rgb(9, 54, 79);
+  font: 700 40px/1.2 "Inter", Helvetica, Arial, serif;
+}
+
+.rect {
+  background-color: rgb(217, 217, 217);
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
+}
+
+.desc {
+  color: rgb(165, 172, 175);
+  font: 400 10px/1.2 "Inter", Helvetica, Arial, serif;
+  text-align: center;
+}
+
+.subtitle {
+  color: rgb(9, 54, 79);
+  font: 700 20px/1.2 "Inter", Helvetica, Arial, serif;
+}
+
+.images {
+  display: flex;
+}
+
+.subtitles {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Define other styles similarly */
